@@ -6,7 +6,7 @@ from telebot import types
 from markups import *
 
 user_states = {}
-bot = TeleBot('7649204888:AAHqyymWnnYitPSNu4z1FubYVr1eCvDu1Kw')
+bot = TeleBot('')
 hideBoard = types.ReplyKeyboardRemove() 
 
 manager = DB_Manager(DATABASE)
